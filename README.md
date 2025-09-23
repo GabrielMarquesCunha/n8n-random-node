@@ -53,22 +53,23 @@ Para desenvolver e/ou compilar o conector customizado você precisa do Node.js:
    docker compose up -d
    ```
 
-3. Acesse o n8n no navegador:
-   - URL: [http://localhost:5678](http://localhost:5678)
-
-4. testar o conector:
+3. testar o conector:
 
 ```bash
 cd .n8n/custom/n8n-nodes-random
 npm install
 npm run build
-docker restart n8n-random-n8n-1
+cd .. 
+cd ..
+docker restart n8n-random-node-n8n-1
 ```
 
-
-5. Acesse o n8n no navegador:
+4. Acesse o n8n no navegador:
    - URL: [http://localhost:5678](http://localhost:5678)
   
+5. Crie Um Usuário
+<img width="833" height="733" alt="image" src="https://github.com/user-attachments/assets/bbb6da7f-b146-4c3b-a7d6-68eb61838a99" />
+
 6. Crie um novo Workflow:
    
  <img width="582" height="284" alt="image" src="https://github.com/user-attachments/assets/e9d9477e-c7ad-4a38-89ae-e5752b8e2d6f" />
