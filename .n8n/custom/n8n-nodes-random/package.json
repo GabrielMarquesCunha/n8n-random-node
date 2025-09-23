@@ -1,0 +1,31 @@
+{
+  "name": "n8n-nodes-random",
+  "version": "1.0.0",
+  "description": "Random node for n8n - True Random Number Generator via random.org",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "n8n-node",
+    "n8n",
+    "random",
+    "random.org"
+  ],
+  "author": "Gabriel Marques da Cunha <gabriel.cunha.1296091@sga.pucminas.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "n8n": {
+    "nodes": [
+      "dist/Random.node.js"
+    ]
+  }
+}
