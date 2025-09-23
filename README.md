@@ -42,7 +42,7 @@ Para desenvolver e/ou compilar o conector customizado você precisa do Node.js:
 
 ------------------------------------------------- ##Executando o serviço localmente ------------------------------------------------
 
- 1. Clone este repositório:
+ 1. Crie uma pasta e clone este repositório:
    ```bash
    git clone https://github.com/GabrielMarquesCunha/n8n-random-node.git
    cd n8n-random-node
