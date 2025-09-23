@@ -59,8 +59,6 @@ Para desenvolver e/ou compilar o conector customizado você precisa do Node.js:
 cd .n8n/custom/n8n-nodes-random
 npm install
 npm run build
-cd .. 
-cd ..
 docker restart n8n-random-node-n8n-1
 ```
 
