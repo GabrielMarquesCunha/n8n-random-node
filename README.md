@@ -45,7 +45,7 @@ Para desenvolver e/ou compilar o conector customizado você precisa do Node.js:
  1. Clone este repositório:
    ```bash
    git clone https://github.com/GabrielMarquesCunha/n8n-random-node.git
-   cd n8n-random
+   cd n8n-random-node
    ```
 
 2. Suba os containers do n8n e Postgres:
