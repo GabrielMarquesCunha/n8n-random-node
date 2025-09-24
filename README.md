@@ -51,7 +51,7 @@ Resolverá o problema.
  ### 3. GIT
  - [https://git-scm.com/downloads]
 
-------------------------------------------------- ##Executando o serviço localmente ------------------------------------------------
+--------------------------------------- ##Executando o serviço localmente -------------------------------------------
 
  1. Crie uma pasta e clone este repositório:
    ```bash
@@ -107,7 +107,7 @@ docker compose down
 ```
 
 
-------------------------------------------------- ##Informações adicionais ------------------------------------------------
+------------------------------------ ##Informações adicionais ------------------------------------------------
 
 
 
@@ -121,7 +121,6 @@ Este `docker-compose.yml` já vem configurado com valores padrão:
   - Banco: `n8n`
 - **n8n**
   - Porta: `5678`
-  - Autenticação básica desativada
 
 Não é necessário `.env` para rodar. Caso queira personalizar as credenciais, edite o `docker-compose.yml`. 
 
