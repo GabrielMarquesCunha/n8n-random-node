@@ -37,8 +37,19 @@ Para desenvolver e/ou compilar o conector customizado você precisa do Node.js:
   node -v
   npm -v
   ```
+### PS: Caso a política de execução de scripts esteja no modo Restricted, como abaixo:
+<img width="982" height="147" alt="image" src="https://github.com/user-attachments/assets/5071ca8f-0634-4ebc-b858-128877d55dcf" />
+
+Execute:
+```
+  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+Resolverá o problema.
+
 *(O Node/NPM só é necessário para **desenvolver** ou **compilar** o conector customizado. Para apenas executar o n8n via Docker não é necessário.)*
 
+ ### 3. GIT
+ - [https://git-scm.com/downloads]
 
 ------------------------------------------------- ##Executando o serviço localmente ------------------------------------------------
 
